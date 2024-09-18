@@ -9,8 +9,6 @@ This repository provides the source code of the StomaDetector in "Additive effec
 <p align="center">
     <img src="readme_fig/figure_correlation_plot.png" alt="Correlation plot of stomatal density" width="50%"/>
 </p>
-** Figure 1**: Correlation between stomata density (SD) scored manually and predicted by deep learning stomata detector. The predictions are highly correlated compared to manual scoring (Pearson correlation r = 0.996). For the NILs (green), there were 855 samples analyzed, and for the ZmAbh mutants (purple) 630 samples. The plotted value corresponds to the mean SD of 9 pictures per sample.
-
 ## Results on the Test-Set
 Here we show the results of the best performing model. The mAP50 on a hold-out test-set was calculated at almost 99%, indicating good generalization.   
 
@@ -19,7 +17,6 @@ Here we show some example predictions from the hold-out test-set. The main diffi
 <p align="center">
     <img src="readme_fig/sup_figure1.png" alt="Predictions of example patches" width="100%"/>
 </p>
-**Figure 2**: Example predictions based on the hold-out test-set. The ground truth is indicated by pink boxes, while the predictions are shown in yellow. (A-D) Missed detections due to severe out-of-focus blur (red arrows), while detecting stomata with moderate amount of blur (predictions bounding boxes overlap with the ground truth). (E-F) Missed detections due to partly visible stomata at the image edges (orange arrows). (G-H) Falsely detected artifacts - mostly small bubbles - in the images as stomata (blue arrows).
 
 ## Installation Instructions
 1. Clone this project
