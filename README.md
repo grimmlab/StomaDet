@@ -9,6 +9,7 @@ This repository provides the source code of the StomaDetector in "Additive effec
 <p align="center">
     <img src="readme_fig/figure_correlation_plot.png" alt="Correlation plot of stomatal density" width="50%"/>
 </p>
+
 ## Results on the Test-Set
 Here we show the results of the best performing model. The mAP50 on a hold-out test-set was calculated at almost 99%, indicating good generalization.   
 
