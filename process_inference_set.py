@@ -79,8 +79,8 @@ if __name__ == "__main__":
     save_path = Path("./output")
     pred_path = Path("./data/predictions")
     gt_path = Path("./data/inference")
-    genotypes_heat, merged_df_heat, gts_heat = process_data(gt_path, pred_path, inference_set="Heat_L6")
-    genotypes_mut, merged_df_mut, gts_mut = process_data(gt_path, pred_path, inference_set="Inference_mutants")
+    genotypes_heat, merged_df_heat, gts_heat = process_data(gt_path, pred_path, inference_set="NIL")
+    genotypes_mut, merged_df_mut, gts_mut = process_data(gt_path, pred_path, inference_set="ZmAbh_mutants")
     genotypes_mut["Inference Set"] = "ZmAbh mutants"
     genotypes_heat["Inference Set"] = "NILs"
     genotypes = pd.concat([genotypes_heat, genotypes_mut])

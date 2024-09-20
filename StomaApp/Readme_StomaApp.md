@@ -40,7 +40,7 @@ Finally, the last tab lets the user download the Summary and Detail tables as cs
     <img src="../readme_fig/stoma_app5.png" alt="Download Data" width="100%"/>
 </p>
 
-## Usage
+## Installation
 1. Clone this project
 ```
 git clone git@github.com:grimmlab/StomaDet.git
@@ -52,7 +52,7 @@ git clone git@github.com:grimmlab/StomaDet.git
 cd StomaDet/StomaApp
 docker build -t stoma_app .
 ```
-4. Download trained model from Mendeley Data (TODO: add link) and paste the unzipped model in `StomaDet/StomaApp/models`.
+4. Download trained model from Mendeley Data (TODO: add link) and paste the unzipped model (`pth` and `yaml` file) in `StomaDet/StomaApp/models`.
 
 ## Start the app
 ```
