@@ -30,7 +30,7 @@ git clone git@github.com:grimmlab/StomaDet.git
 cd StomaDet
 docker build -t stoma_det .
 ```
-4. Download dataset (`data.zip`) from Mendeley Data (TODO: add link) and paste the unzipped files in `StomaDet/data`.
+4. Download dataset (`data.zip`) from Mendeley Data ([https://data.mendeley.com/datasets/2bfcpc6bpj/1](https://data.mendeley.com/datasets/2bfcpc6bpj/1)) and paste the unzipped files in `StomaDet/data`.
 5. Start docker container
 ```
 docker run -it -v /path/to/github/repo/StomaDet:/workspace --workdir /workspace --runtime nvidia --gpus device=0 --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 --name stoma_det1 stoma_det
